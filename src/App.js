@@ -5,6 +5,7 @@ import AddCart from './Components/AddCart';
 import SearchCart from './Components/SearchCart';
 import DeleteCart from './Components/DeleteCart';
 import ViewAll from './Components/ViewAll';
+import ViewProduct from './Components/ViewProduct';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/search" element={<SearchCart/>}/>
         <Route path="/delete" element={<DeleteCart/>}/>
         <Route path="/view" element={<ViewAll/>}/>
+        <Route path="/product" element={<ViewProduct/>}/>
       </Routes>
       </BrowserRouter>
     </div>
